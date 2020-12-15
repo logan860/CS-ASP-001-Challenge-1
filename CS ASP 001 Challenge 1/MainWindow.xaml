@@ -1,0 +1,21 @@
+﻿<Window x:Class="CS_ASP_001_Challenge_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_ASP_001_Challenge_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="128,82,0,0" Text="Number1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="558,82,0,0" Text="Number2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Center" Margin="0,78,0,0" VerticalAlignment="Top"/>
+        <Button Content="Addition" HorizontalAlignment="Left" Margin="188,197,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <Button x:Name="___button1" Content="Multiply" HorizontalAlignment="Left" Margin="328,278,0,0" VerticalAlignment="Top" Click="___button1_Click" Width="72"/>
+        <Button x:Name="button2" Content="Subtraction" HorizontalAlignment="Left" Margin="592,273,0,0" VerticalAlignment="Top" Width="86" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Divison" HorizontalAlignment="Left" Margin="475,202,0,0" VerticalAlignment="Top" Width="64" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Modulus" HorizontalAlignment="Left" Margin="72,278,0,0" VerticalAlignment="Top" Width="89" Click="button4_Click"/>
+        <Button x:Name="buttonClear" Content="Clear All" HorizontalAlignment="Left" Margin="425,376,0,0" VerticalAlignment="Top" Width="171" Click="buttonClear_Click"/>
+
+    </Grid>
+</Window>
